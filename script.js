@@ -12,6 +12,8 @@ document.querySelector(".check").addEventListener("click", function () {
     document.querySelector(".message").textContent = "No number! ✋";
   } else if (guess === secretNumber) {
     document.querySelector(".message").textContent = "Correct Number!🏆";
+    document.querySelector("body").style.backgroundColor = "#82F6C8";
+    document.querySelector(".number").style.width = "30rem";
   } else if (guess < secretNumber) {
     if (score > 1) {
       document.querySelector(".message").textContent = "Try bigger! 👍";
@@ -32,3 +34,5 @@ document.querySelector(".check").addEventListener("click", function () {
     }
   }
 });
+
+//document.querySelector(".again").addEventListener("click", function());
