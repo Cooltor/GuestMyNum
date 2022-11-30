@@ -2,8 +2,9 @@
 
 ## What's this project ?
 
-It's a little Game in JavaScript. I develop this game to learn JavaScript and the manipulation with the DOM.
+It's a little Game in JavaScript. I code this game to learn JavaScript and the manipulation with the DOM.
 This project is proposed by Jonas Shmedtmann in his course of JS.
+I've change the CSS a little and I add the name option.
 
 ## What's you need ?
 
