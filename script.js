@@ -19,7 +19,8 @@ document.querySelector(".check").addEventListener("click", function () {
 
     if (score > highscore) {
       highscore = score;
-      document.querySelector(".highscore").texteContent = highscore;
+      console.log(highscore);
+      document.querySelector(".highscore").textContent = highscore;
     }
 
     // it's too low
