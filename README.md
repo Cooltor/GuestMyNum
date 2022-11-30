@@ -12,7 +12,7 @@ You need an IDE, VS Code for me.
 
 ## Version :
 
-Only HTML and CSS for now
+Beta test
 
 ## Source :
 
