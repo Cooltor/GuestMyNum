@@ -12,7 +12,9 @@ You need an IDE, VS Code for me.
 
 ## Version :
 
-Beta test
+V1.0
+
+go to V.2 with "pseudo" soon
 
 ## Source :
 
