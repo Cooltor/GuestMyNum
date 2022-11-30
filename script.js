@@ -22,22 +22,10 @@ document.querySelector(".check").addEventListener("click", function () {
       console.log(highscore);
       document.querySelector(".highscore").textContent = highscore;
     }
-
-    // it's too low
-  } else if (guess < secretNumber) {
+  } else if (guess !== secretNumber) {
     if (score > 1) {
-      document.querySelector(".message").textContent = "Try bigger! 👍";
-      score = score - 1;
-      document.querySelector(".score").textContent = score;
-    } else {
-      document.querySelector(".message").textContent = "LOSER !!! 🤡";
-      document.querySelector(".score").textContent = 0;
-    }
-
-    // It's too high
-  } else if (guess > secretNumber) {
-    if (score > 1) {
-      document.querySelector(".message").textContent = "Try smaller! 👎";
+      document.querySelector(".message").textContent =
+        guess < secretNumber ? "Try bigger! 👍" : "Try smaller! 👎";
       score--;
       document.querySelector(".score").textContent = score;
     } else {
